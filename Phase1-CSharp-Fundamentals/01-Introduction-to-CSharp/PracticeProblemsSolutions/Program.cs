@@ -8,6 +8,8 @@
 // string location = Console.ReadLine();
 // Console.WriteLine($"Hi! My name is {name}. I am {ageInput} years old and I live in {location}.");
 
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
 //Problem 2: Write a C# console program that: Asks the user for two numbers and Prints their sum, difference, product, and quotient
 
 // Console.WriteLine("Enter the first number:");
@@ -26,6 +28,8 @@
 // Console.WriteLine($"The product of {firstNumber} and {secondNumber} is {product}");
 // Console.WriteLine($"The quotient of {firstNumber} divided by {secondNumber} is {quotient}");
 
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
 //Problem 3: Write a program that: Takes two numbers as input and Swaps their values (the first becomes the second and vice versa) and Prints the values before and after swapping
 
 // Console.WriteLine("Enter the first number:");
@@ -39,6 +43,8 @@
 // secondNumber = temp;
 // Console.WriteLine($"After swapping: firstNumber = {firstNumber}, secondNumber = {secondNumber}");
 
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
 //Problem 4: Write a program that: Asks the user for a temperature in Celsius and Converts it to Fahrenheit and Kelvin and Displays all three values formatted to 2 decimal places
 
 // Console.WriteLine("Enter a temperature in Celsius:");
@@ -49,6 +55,8 @@
 // Console.WriteLine($"Temperature in Celsius: {celsius:F2} °C");
 // Console.WriteLine($"Temperature in Fahrenheit: {fahrenheit:F2} °F");
 // Console.WriteLine($"Temperature in Kelvin: {kelvin:F2} K");
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 //Problem 5: Write a program that: Takes the user's name, role, and email and Generates a formatted profile card in the console using ASCII art/box drawing
 
