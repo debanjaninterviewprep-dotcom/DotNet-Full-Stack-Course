@@ -164,3 +164,5 @@
 | March 30, 2026 | Phase 1, Topic 1: Intro to C# | Started |
 | April 3, 2026 | Phase 1, Topic 1: Intro to C# | ✅ Completed |
 | April 3, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | Started |
+| April 25, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | ✅ Completed |
+| April 25, 2026 | Phase 1, Topic 3: Operators & Expressions | Started |
