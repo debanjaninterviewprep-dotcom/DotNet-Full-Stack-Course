@@ -1,32 +1,39 @@
-﻿//Problem 1: Write a program that asks the user for their name, age, and location, and then prints out a message that says "Hi! My name is [name]. I am [age] years old and I live in [location]."
+﻿//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-// Console.WriteLine("What is your name?");
-// string name = Console.ReadLine();
-// Console.WriteLine("What is your age?");
-// string ageInput = Console.ReadLine();
-// Console.WriteLine("Where do you live?");
-// string location = Console.ReadLine();
-// Console.WriteLine($"Hi! My name is {name}. I am {ageInput} years old and I live in {location}.");
+// Entry point for the console application
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		//Problem 1: Write a program that asks the user for their name, age, and location, and then prints out a message that says "Hi! My name is [name]. I am [age] years old and I live in [location]."
+		// Console.WriteLine("What is your name?");
+		// string name = Console.ReadLine();
+		// Console.WriteLine("What is your age?");
+		// string ageInput = Console.ReadLine();
+		// Console.WriteLine("Where do you live?");
+		// string location = Console.ReadLine();
+		// Console.WriteLine($"Hi! My name is {name}. I am {ageInput} years old and I live in {location}.");
 
-//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+		//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-//Problem 2: Write a C# console program that: Asks the user for two numbers and Prints their sum, difference, product, and quotient
-
-// Console.WriteLine("Enter the first number:");
-// double firstNumber = double.Parse(Console.ReadLine());
-// Console.WriteLine("Enter the second number:");
-// double secondNumber = double.Parse(Console.ReadLine());
-// double sum = firstNumber + secondNumber;
-// double difference = firstNumber - secondNumber;
-// double product = firstNumber * secondNumber;
-// double quotient = firstNumber / secondNumber;
-// Console.WriteLine();
-// Console.WriteLine("Results:");
-// Console.WriteLine();
-// Console.WriteLine($"The sum of {firstNumber} and {secondNumber} is {sum}");
-// Console.WriteLine($"The difference between {firstNumber} and {secondNumber} is {difference}");
-// Console.WriteLine($"The product of {firstNumber} and {secondNumber} is {product}");
-// Console.WriteLine($"The quotient of {firstNumber} divided by {secondNumber} is {quotient}");
+		//Problem 2: Write a C# console program that: Asks the user for two numbers and Prints their sum, difference, product, and quotient
+		// Console.WriteLine("Enter the first number:");
+		// double firstNumber = double.Parse(Console.ReadLine());
+		// Console.WriteLine("Enter the second number:");
+		// double secondNumber = double.Parse(Console.ReadLine());
+		// double sum = firstNumber + secondNumber;
+		// double difference = firstNumber - secondNumber;
+		// double product = firstNumber * secondNumber;
+		// double quotient = firstNumber / secondNumber;
+		// Console.WriteLine();
+		// Console.WriteLine("Results:");
+		// Console.WriteLine();
+		// Console.WriteLine($"The sum of {firstNumber} and {secondNumber} is {sum}");
+		// Console.WriteLine($"The difference between {firstNumber} and {secondNumber} is {difference}");
+		// Console.WriteLine($"The product of {firstNumber} and {secondNumber} is {product}");
+		// Console.WriteLine($"The quotient of {firstNumber} divided by {secondNumber} is {quotient}");
+	}
+}
 
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 

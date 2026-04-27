@@ -1,33 +1,37 @@
 ﻿
-
-// Problem 1: Write a C# console program that declares one variable of each type below, assigns a value, and prints them all with labels:
-
-// int, double, decimal, float, long
-// char, bool, string
-
-// int myInt = 42;
-// double myDouble = 3.14;
-// decimal myDecimal = 19.99m;
-// float myFloat = 2.718f;
-// long myLong = 123456789L;
-// char myChar = 'A';
-// bool myBool = true;
-// string myString = "Hello, World!";
-
-// Console.WriteLine($"Integer: {myInt}");
-// Console.WriteLine($"Double: {myDouble}");
-// Console.WriteLine($"Decimal: {myDecimal}");
-// Console.WriteLine($"Float: {myFloat}");
-// Console.WriteLine($"Long: {myLong}");
-// Console.WriteLine($"Char: {myChar}");
-// Console.WriteLine($"Boolean: {myBool}");
-// Console.WriteLine($"String: {myString}");
-
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-// Problem 2: Smart Type Converter
+// Entry point for the console application
+public class Program
+{
+	public static void Main(string[] args)
+	{
+		// Problem 1: Write a C# console program that declares one variable of each type below, assigns a value, and prints them all with labels:
+		// int, double, decimal, float, long
+		// char, bool, string
+		// int myInt = 42;
+		// double myDouble = 3.14;
+		// decimal myDecimal = 19.99m;
+		// float myFloat = 2.718f;
+		// long myLong = 123456789L;
+		// char myChar = 'A';
+		// bool myBool = true;
+		// string myString = "Hello, World!";
+		// Console.WriteLine($"Integer: {myInt}");
+		// Console.WriteLine($"Double: {myDouble}");
+		// Console.WriteLine($"Decimal: {myDecimal}");
+		// Console.WriteLine($"Float: {myFloat}");
+		// Console.WriteLine($"Long: {myLong}");
+		// Console.WriteLine($"Char: {myChar}");
+		// Console.WriteLine($"Boolean: {myBool}");
+		// Console.WriteLine($"String: {myString}");
 
-// Write a program that:
+		//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+
+		// Problem 2: Smart Type Converter
+		// Write a program that:
+	}
+}
 
 // Asks the user to enter a string value
 // Attempts to convert it to int, double, and bool
