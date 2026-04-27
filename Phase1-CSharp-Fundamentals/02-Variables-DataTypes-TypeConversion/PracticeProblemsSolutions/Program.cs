@@ -2,34 +2,68 @@
 //----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
 // Entry point for the console application
-public class Program
+
+using System;
+
+namespace PracticeProblemsSolutions
 {
-	public static void Main(string[] args)
+	class Program
 	{
-		// Problem 1: Write a C# console program that declares one variable of each type below, assigns a value, and prints them all with labels:
-		// int, double, decimal, float, long
-		// char, bool, string
-		// int myInt = 42;
-		// double myDouble = 3.14;
-		// decimal myDecimal = 19.99m;
-		// float myFloat = 2.718f;
-		// long myLong = 123456789L;
-		// char myChar = 'A';
-		// bool myBool = true;
-		// string myString = "Hello, World!";
-		// Console.WriteLine($"Integer: {myInt}");
-		// Console.WriteLine($"Double: {myDouble}");
-		// Console.WriteLine($"Decimal: {myDecimal}");
-		// Console.WriteLine($"Float: {myFloat}");
-		// Console.WriteLine($"Long: {myLong}");
-		// Console.WriteLine($"Char: {myChar}");
-		// Console.WriteLine($"Boolean: {myBool}");
-		// Console.WriteLine($"String: {myString}");
+		static void Main(string[] args)
+		{
+			// ===============================
+			// Problem 1: Variable Declarations and Printing
+			// ===============================
+			int myInt = 42;
+			double myDouble = 3.14;
+			decimal myDecimal = 19.99m;
+			float myFloat = 2.718f;
+			long myLong = 123456789L;
+			char myChar = 'A';
+			bool myBool = true;
+			string myString = "Hello, World!";
+			Console.WriteLine($"Integer: {myInt}");
+			Console.WriteLine($"Double: {myDouble}");
+			Console.WriteLine($"Decimal: {myDecimal}");
+			Console.WriteLine($"Float: {myFloat}");
+			Console.WriteLine($"Long: {myLong}");
+			Console.WriteLine($"Char: {myChar}");
+			Console.WriteLine($"Boolean: {myBool}");
+			Console.WriteLine($"String: {myString}");
 
-		//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
+			//----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------//
 
-		// Problem 2: Smart Type Converter
-		// Write a program that:
+			// ===============================
+			// Problem 2: Smart Type Converter
+			// ===============================
+			Console.WriteLine("\n=== Smart Type Converter ===");
+			Console.Write("Enter a string value: ");
+			string? input = Console.ReadLine();
+			if (int.TryParse(input, out int intValue))
+			{
+				Console.WriteLine($"Conversion to int succeeded: {intValue}");
+			}
+			else
+			{
+				Console.WriteLine("Conversion to int failed.");
+			}
+			if (double.TryParse(input, out double doubleValue))
+			{
+				Console.WriteLine($"Conversion to double succeeded: {doubleValue}");
+			}
+			else
+			{
+				Console.WriteLine("Conversion to double failed.");
+			}
+			if (bool.TryParse(input, out bool boolValue))
+			{
+				Console.WriteLine($"Conversion to bool succeeded: {boolValue}");
+			}
+			else
+			{
+				Console.WriteLine("Conversion to bool failed.");
+			}
+		}
 	}
 }
 
