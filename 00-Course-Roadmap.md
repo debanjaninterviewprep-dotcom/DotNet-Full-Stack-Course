@@ -13,8 +13,8 @@
 |---|-------|--------|
 | 1 | Introduction to C#, .NET Ecosystem & First Program | ✅ Completed |
 | 2 | Variables, Data Types & Type Conversion | ✅ Completed |
-| 3 | Operators & Expressions | 🟢 In Progress |
-| 4 | Control Flow (if/else, switch, loops) | ⬜ Not Started |
+| 3 | Operators & Expressions | ✅ Completed |
+| 4 | Control Flow (if/else, switch, loops) | 🟢 In Progress |
 | 5 | Methods & Parameters | ⬜ Not Started |
 | 6 | Arrays & Strings | ⬜ Not Started |
 | 7 | Object-Oriented Programming - Classes & Objects | ⬜ Not Started |
