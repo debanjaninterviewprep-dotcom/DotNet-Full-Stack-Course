@@ -12,9 +12,17 @@ namespace PracticeProblemsSolutions
 			// ===============================
 			Console.WriteLine("=== Arithmetic Playground ===");
 			Console.Write("Enter first number: ");
-			int num1 = int.Parse(Console.ReadLine());
+			int num1;
+			while (!int.TryParse(Console.ReadLine() ?? string.Empty, out num1))
+			{
+				Console.Write("Invalid input. Enter first number: ");
+			}
 			Console.Write("Enter second number: ");
-			int num2 = int.Parse(Console.ReadLine());
+			int num2;
+			while (!int.TryParse(Console.ReadLine() ?? string.Empty, out num2))
+			{
+				Console.Write("Invalid input. Enter second number: ");
+			}
 			Console.WriteLine("\n=== Arithmetic Results ===");
 			Console.WriteLine($"{num1} + {num2}  = {num1 + num2}");
 			Console.WriteLine($"{num1} - {num2}  = {num1 - num2}");
@@ -83,7 +91,8 @@ namespace PracticeProblemsSolutions
 			if (permissions == 0) Console.Write("None");
 			Console.WriteLine();
 			Console.Write("\nCheck permission - Enter R/W/E: ");
-			string check = Console.ReadLine().Trim().ToUpper();
+			string? checkInput = Console.ReadLine();
+			string check = (checkInput ?? string.Empty).Trim().ToUpper();
 			int checkVal = check == "R" ? Read : check == "W" ? Write : check == "E" ? Execute : 0;
 			if (checkVal == 0)
 				Console.WriteLine("Invalid input.");
@@ -97,26 +106,26 @@ namespace PracticeProblemsSolutions
 			// Problem 5: Null-Safe User Profile
 			// ===============================
 			Console.WriteLine("=== TASKFLOW PROFILE SETUP ===\n");
-			string name = AskField("name");
-			string email = AskField("email");
-			string phone = AskField("phone");
-			string city = AskField("city");
+			string? name = AskField("name");
+			string? email = AskField("email");
+			string? phone = AskField("phone");
+			string? city = AskField("city");
 			int filled = 0;
 			if (!string.IsNullOrWhiteSpace(name)) filled++;
 			if (!string.IsNullOrWhiteSpace(email)) filled++;
 			if (!string.IsNullOrWhiteSpace(phone)) filled++;
 			if (!string.IsNullOrWhiteSpace(city)) filled++;
 			double completeness = (filled / 4.0) * 100;
-			string emailDomain = string.IsNullOrWhiteSpace(email) ? "N/A" : (email?.Contains("@") == true ? email?.Split('@')[1] : "N/A");
+			string emailDomain = string.IsNullOrWhiteSpace(email) ? "N/A" : (email!.Contains("@") ? email.Split('@')[1] : "N/A");
 			Console.WriteLine("╔══════════════════════════════════════╗");
 			Console.WriteLine("║         USER PROFILE                 ║");
 			Console.WriteLine("╠══════════════════════════════════════╣");
-			Console.WriteLine($"║  Name:    {name ?? "Not Provided",-25}║");
+			Console.WriteLine($"║  Name:    {(string.IsNullOrWhiteSpace(name) ? "Not Provided" : name),-25}║");
 			Console.WriteLine($"║  Email:   {(string.IsNullOrWhiteSpace(email) ? "Not Provided" : email),-25}║");
 			Console.WriteLine($"║  Phone:   {(string.IsNullOrWhiteSpace(phone) ? "Not Provided" : phone),-25}║");
 			Console.WriteLine($"║  City:    {(string.IsNullOrWhiteSpace(city) ? "Not Provided" : city),-25}║");
 			Console.WriteLine("╠══════════════════════════════════════╣");
-			Console.WriteLine($"║  Name Length:    {(name?.Length > 0 ? name.Length + " characters" : "N/A"),-16}║");
+			Console.WriteLine($"║  Name Length:    {(string.IsNullOrEmpty(name) ? "N/A" : name.Length + " characters"),-16}║");
 			Console.WriteLine($"║  Email Domain:   {emailDomain,-16}║");
 			Console.WriteLine($"║  Profile:        {completeness:F0}% Complete      ║");
 			Console.WriteLine("╚══════════════════════════════════════╝\n");
@@ -128,7 +137,8 @@ namespace PracticeProblemsSolutions
 			while (true)
 			{
 				Console.Write($"Enter {subject} score: ");
-				if (int.TryParse(Console.ReadLine(), out score) && score >= 0 && score <= 100)
+				string? input = Console.ReadLine();
+				if (int.TryParse(input ?? string.Empty, out score) && score >= 0 && score <= 100)
 					return score;
 				Console.WriteLine("Invalid input. Please enter a number between 0 and 100.");
 			}
@@ -137,14 +147,14 @@ namespace PracticeProblemsSolutions
 		static bool AskPermission(string perm)
 		{
 			Console.Write($"Grant {perm} permission? (Y/N): ");
-			string input = Console.ReadLine().Trim().ToUpper();
-			return input == "Y";
+			string? input = Console.ReadLine();
+			return (input ?? string.Empty).Trim().ToUpper() == "Y";
 		}
 
-		static string AskField(string field)
+		static string? AskField(string field)
 		{
 			Console.Write($"Enter {field} (or press Enter to skip): ");
-			string val = Console.ReadLine();
+			string? val = Console.ReadLine();
 			return string.IsNullOrWhiteSpace(val) ? null : val;
 		}
 	}
