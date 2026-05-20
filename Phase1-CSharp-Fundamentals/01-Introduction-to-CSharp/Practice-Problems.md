@@ -136,8 +136,8 @@ Write a program that:
 ---
 
 ## Checklist
-- [ ] Problem 1: Personal Introduction
-- [ ] Problem 2: Simple Calculator
-- [ ] Problem 3: Swap Two Variables
-- [ ] Problem 4: Temperature Converter
-- [ ] Problem 5: ASCII Art Profile Card
+- [x] Problem 1: Personal Introduction
+- [x] Problem 2: Simple Calculator
+- [x] Problem 3: Swap Two Variables
+- [x] Problem 4: Temperature Converter
+- [x] Problem 5: ASCII Art Profile Card

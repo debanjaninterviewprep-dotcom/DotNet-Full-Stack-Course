@@ -192,8 +192,8 @@ Enter city (or press Enter to skip):
 ---
 
 ## Checklist
-- [ ] Problem 1: Arithmetic Playground
-- [ ] Problem 2: Pre/Post Increment Predictor
-- [ ] Problem 3: Grade Calculator with Logical Operators
-- [ ] Problem 4: Bitwise Permission System
-- [ ] Problem 5: Null-Safe User Profile
+- [x] Problem 1: Arithmetic Playground
+- [x] Problem 2: Pre/Post Increment Predictor
+- [x] Problem 3: Grade Calculator with Logical Operators
+- [x] Problem 4: Bitwise Permission System
+- [x] Problem 5: Null-Safe User Profile
