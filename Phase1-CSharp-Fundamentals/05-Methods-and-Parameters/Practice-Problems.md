@@ -193,8 +193,8 @@ Choice: 4
 ---
 
 ## Checklist
- [x] Problem 1: Method Toolbox
- [x] Problem 2: Overloaded Calculator
- [x] Problem 3: ref/out Swap & Split
- [x] Problem 4: Recursive Power Calculator
- [x] Problem 5: TaskFlow Command System
+- [x] Problem 1: Method Toolbox
+- [x] Problem 2: Overloaded Calculator
+- [x] Problem 3: ref/out Swap & Split
+- [x] Problem 4: Recursive Power Calculator
+- [x] Problem 5: TaskFlow Command System
