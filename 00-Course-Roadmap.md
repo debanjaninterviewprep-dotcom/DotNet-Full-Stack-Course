@@ -16,7 +16,7 @@
 | 3 | Operators & Expressions | ✅ Completed |
 | 4 | Control Flow (if/else, switch, loops) | 🟢 In Progress |
 | 5 | Methods & Parameters | ⬜ Not Started |
-| 6 | Arrays & Strings | ⬜ Not Started |
+| 6 | Arrays & Strings | 🟢 In Progress |
 | 7 | Object-Oriented Programming - Classes & Objects | ⬜ Not Started |
 | 8 | OOP - Inheritance & Polymorphism | ⬜ Not Started |
 | 9 | OOP - Abstraction & Interfaces | ⬜ Not Started |
@@ -166,3 +166,4 @@
 | April 3, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | Started |
 | April 25, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | ✅ Completed |
 | April 25, 2026 | Phase 1, Topic 3: Operators & Expressions | Started |
+| May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | Implemented Problem 2 (Word Analyzer), Problem 4 (String Builder Challenge), Problem 5 (TaskFlow Task Manager); updated solutions and built successfully |
