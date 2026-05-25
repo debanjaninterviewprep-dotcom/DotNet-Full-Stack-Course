@@ -15,7 +15,7 @@
 | 2 | Variables, Data Types & Type Conversion | ✅ Completed |
 | 3 | Operators & Expressions | ✅ Completed |
 | 4 | Control Flow (if/else, switch, loops) | ✅ Completed |
-| 5 | Methods & Parameters | 🟢 In Progress |
+| 5 | Methods & Parameters | ✅ Completed |
 | 6 | Arrays & Strings | ✅ Completed |
 | 7 | Object-Oriented Programming - Classes & Objects | ⬜ Not Started |
 | 8 | OOP - Inheritance & Polymorphism | ⬜ Not Started |
@@ -170,4 +170,6 @@
 | May 06, 2026 | Phase 1, Topic 4: Control Flow | 🟢 In Progress |
 | May 15, 2026 | Phase 1, Topic 4: Control Flow | ✅ Completed |
 | May 16, 2026 | Phase 1, Topic 5: Methods & Parameters | 🟢 In Progress |
-| May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | ✅ Completed (Implemented Problem 2, Problem 4, Problem 5; updated solutions and built successfully) |
+| May 20, 2026 | Phase 1, Topic 5: Methods & Parameters | ✅ Completed |
+| May 20, 2026 | Phase 1, Topic 6: Arrays & Strings | 🟢 In Progress |
+| May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | ✅ Completed |
