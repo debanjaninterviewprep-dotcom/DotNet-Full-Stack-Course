@@ -14,9 +14,9 @@
 | 1 | Introduction to C#, .NET Ecosystem & First Program | ✅ Completed |
 | 2 | Variables, Data Types & Type Conversion | ✅ Completed |
 | 3 | Operators & Expressions | ✅ Completed |
-| 4 | Control Flow (if/else, switch, loops) | 🟢 In Progress |
-| 5 | Methods & Parameters | ⬜ Not Started |
-| 6 | Arrays & Strings | 🟢 In Progress |
+| 4 | Control Flow (if/else, switch, loops) | ✅ Completed |
+| 5 | Methods & Parameters | 🟢 In Progress |
+| 6 | Arrays & Strings | ✅ Completed |
 | 7 | Object-Oriented Programming - Classes & Objects | ⬜ Not Started |
 | 8 | OOP - Inheritance & Polymorphism | ⬜ Not Started |
 | 9 | OOP - Abstraction & Interfaces | ⬜ Not Started |
@@ -165,5 +165,9 @@
 | April 3, 2026 | Phase 1, Topic 1: Intro to C# | ✅ Completed |
 | April 3, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | 🟢 In Progress |
 | April 25, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | ✅ Completed |
-| April 25, 2026 | Phase 1, Topic 3: Operators & Expressions | 🟢 In Progress |
-| May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | Implemented Problem 2 (Word Analyzer), Problem 4 (String Builder Challenge), Problem 5 (TaskFlow Task Manager); updated solutions and built successfully |
+| April 26, 2026 | Phase 1, Topic 3: Operators & Expressions | 🟢 In Progress |
+| May 05, 2026 | Phase 1, Topic 3: Operators & Expressions | ✅ Completed |
+| May 06, 2026 | Phase 1, Topic 4: Control Flow | 🟢 In Progress |
+| May 15, 2026 | Phase 1, Topic 4: Control Flow | ✅ Completed |
+| May 16, 2026 | Phase 1, Topic 5: Methods & Parameters | 🟢 In Progress |
+| May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | ✅ Completed (Implemented Problem 2, Problem 4, Problem 5; updated solutions and built successfully) |
