@@ -161,9 +161,9 @@
 ## Progress Log
 | Date | Topic Covered | Notes |
 |------|--------------|-------|
-| March 30, 2026 | Phase 1, Topic 1: Intro to C# | Started |
+| March 30, 2026 | Phase 1, Topic 1: Intro to C# | 🟢 In Progress |
 | April 3, 2026 | Phase 1, Topic 1: Intro to C# | ✅ Completed |
-| April 3, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | Started |
+| April 3, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | 🟢 In Progress |
 | April 25, 2026 | Phase 1, Topic 2: Variables, Data Types & Type Conversion | ✅ Completed |
-| April 25, 2026 | Phase 1, Topic 3: Operators & Expressions | Started |
+| April 25, 2026 | Phase 1, Topic 3: Operators & Expressions | 🟢 In Progress |
 | May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | Implemented Problem 2 (Word Analyzer), Problem 4 (String Builder Challenge), Problem 5 (TaskFlow Task Manager); updated solutions and built successfully |
