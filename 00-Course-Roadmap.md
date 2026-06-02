@@ -17,7 +17,7 @@
 | 4 | Control Flow (if/else, switch, loops) | ✅ Completed |
 | 5 | Methods & Parameters | ✅ Completed |
 | 6 | Arrays & Strings | ✅ Completed |
-| 7 | Object-Oriented Programming - Classes & Objects | ⬜ Not Started |
+| 7 | Object-Oriented Programming - Classes & Objects | ✅ Completed |
 | 8 | OOP - Inheritance & Polymorphism | ⬜ Not Started |
 | 9 | OOP - Abstraction & Interfaces | ⬜ Not Started |
 | 10 | OOP - Encapsulation & Access Modifiers | ⬜ Not Started |
@@ -199,3 +199,5 @@
 | May 20, 2026 | Phase 1, Topic 5: Methods & Parameters | ✅ Completed |
 | May 20, 2026 | Phase 1, Topic 6: Arrays & Strings | 🟢 In Progress |
 | May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | ✅ Completed |
+| May 26, 2026 | Phase 1, Topic 7: OOP - Classes & Objects | 🟢 In Progress |
+| June 02, 2026 | Phase 1, Topic 7: OOP - Classes & Objects | ✅ Completed |
