@@ -203,8 +203,8 @@ Build a complete **TaskFlow Project Manager** using classes:
 ---
 
 ## Checklist
-- [x] Problem 1: Bank Account Class
-- [x] Problem 2: Student Grade Book
-- [x] Problem 3: Rectangle & Circle with Static Utility
-- [x] Problem 4: Constructor Overloading - Employee System
-- [x] Problem 5: TaskFlow Project Manager
+- ✅ Problem 1: Bank Account Class
+- ✅ Problem 2: Student Grade Book
+- ✅ Problem 3: Rectangle & Circle with Static Utility
+- ✅ Problem 4: Constructor Overloading - Employee System
+- ✅ Problem 5: TaskFlow Project Manager

@@ -183,8 +183,8 @@ Enter English score (or press Enter to skip): 90
 ---
 
 ## Checklist
-- [x] Problem 1: Variable Explorer
-- [x] Problem 2: Smart Type Converter
-- [x] Problem 3: Salary Calculator
-- [x] Problem 4: Data Type Size Reporter
-- [x] Problem 5: Nullable Score Tracker
+- ✅ Problem 1: Variable Explorer
+- ✅ Problem 2: Smart Type Converter
+- ✅ Problem 3: Salary Calculator
+- ✅ Problem 4: Data Type Size Reporter
+- ✅ Problem 5: Nullable Score Tracker

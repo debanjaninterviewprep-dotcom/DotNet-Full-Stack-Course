@@ -206,8 +206,8 @@ Total:     21
 ---
 
 ## Checklist
-- [x] Problem 1: Number Classifier
-- [x] Problem 2: Calculator with Switch
-- [x] Problem 3: Number Guessing Game
-- [x] Problem 4: Star Pattern Printer
-- [x] Problem 5: FizzBuzz Extended
+- ✅ Problem 1: Number Classifier
+- ✅ Problem 2: Calculator with Switch
+- ✅ Problem 3: Number Guessing Game
+- ✅ Problem 4: Star Pattern Printer
+- ✅ Problem 5: FizzBuzz Extended
