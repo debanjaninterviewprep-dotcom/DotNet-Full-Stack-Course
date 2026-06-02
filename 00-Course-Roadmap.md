@@ -101,14 +101,22 @@
 
 ---
 
-### Phase 6: Full Stack Integration Project
+### Phase 6: Full Stack Integration — Building TaskFlow End-to-End
 | # | Topic | Status |
 |---|-------|--------|
-| 1 | Project Planning & Architecture Design | ⬜ Not Started |
-| 2 | Backend API Development | ⬜ Not Started |
-| 3 | Frontend React/Angular App | ⬜ Not Started |
-| 4 | Integration & Testing | ⬜ Not Started |
-| 5 | Deployment | ⬜ Not Started |
+| 1 | Project Planning & Architecture | ⬜ Not Started |
+| 2 | Database Design & EF Core Migrations | ⬜ Not Started |
+| 3 | Backend API Foundation | ⬜ Not Started |
+| 4 | CRUD, DTOs, Validation & Pagination | ⬜ Not Started |
+| 5 | Authentication & Authorization End-to-End | ⬜ Not Started |
+| 6 | Frontend Bootstrap & Architecture | ⬜ Not Started |
+| 7 | Frontend ↔ Backend Integration | ⬜ Not Started |
+| 8 | Real-Time Features with SignalR | ⬜ Not Started |
+| 9 | File Uploads, Background Jobs & Email | ⬜ Not Started |
+| 10 | Testing the Full Stack | ⬜ Not Started |
+| 11 | Logging, Observability, Caching & Performance | ⬜ Not Started |
+| 12 | CI/CD, Docker & Deployment | ⬜ Not Started |
+| 13 | Phase 6 Capstone — Submission & Revision | ⬜ Not Started |
 
 ---
 

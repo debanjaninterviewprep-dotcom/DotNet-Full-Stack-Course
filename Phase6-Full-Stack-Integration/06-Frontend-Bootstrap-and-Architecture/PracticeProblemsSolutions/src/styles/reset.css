@@ -1,0 +1,5 @@
+*, *::before, *::after { box-sizing: border-box; }
+html, body, #root { height: 100%; }
+body { margin: 0; }
+button { font: inherit; cursor: pointer; }
+a { color: inherit; }

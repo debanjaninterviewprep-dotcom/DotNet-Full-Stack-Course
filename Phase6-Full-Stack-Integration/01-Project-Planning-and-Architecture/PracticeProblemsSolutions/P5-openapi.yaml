@@ -1,0 +1,22 @@
+openapi: 3.1.0
+info:
+  title: TaskFlow API
+  version: 1.0.0
+  description: TODO
+servers:
+  - url: https://api.taskflow.local/api/v1
+
+# TODO:
+# - components.securitySchemes (bearerAuth)
+# - components.parameters (page, pageSize, sort)
+# - components.schemas (Project, ProjectCreate, ProjectUpdate, Task, TaskCreate,
+#   TaskUpdate, TaskPatch, PageOfTasks, ProblemDetails, ValidationProblemDetails)
+# - paths /projects, /projects/{projectId}, /projects/{projectId}/tasks, /tasks/{taskId}
+# - status codes 200, 201, 204, 400, 401, 403, 404, 409, 412, 422
+# - examples for every schema
+
+paths: {}
+components:
+  schemas: {}
+  securitySchemes: {}
+  parameters: {}

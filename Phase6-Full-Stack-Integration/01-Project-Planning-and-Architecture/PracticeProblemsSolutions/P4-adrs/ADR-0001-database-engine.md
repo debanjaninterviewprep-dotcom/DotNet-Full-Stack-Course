@@ -1,0 +1,19 @@
+# ADR-0001: Database Engine
+
+- **Status:** Proposed
+- **Date:** YYYY-MM-DD
+- **Deciders:** TODO
+
+## Context
+TODO
+
+## Decision
+TODO
+
+## Consequences
+- (+) TODO
+- (-) TODO
+
+## Alternatives considered
+- TODO — rejected because ...
+- TODO — rejected because ...

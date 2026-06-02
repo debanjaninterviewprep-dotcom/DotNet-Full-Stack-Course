@@ -1,0 +1,33 @@
+# syntax=docker/dockerfile:1.7
+# P1: Multi-stage build for the TaskFlow API.
+
+# ---------- restore (cacheable while csproj/props don't change) ----------
+FROM mcr.microsoft.com/dotnet/sdk:9.0 AS restore
+WORKDIR /src
+COPY ["TaskFlow.Api/TaskFlow.Api.csproj", "TaskFlow.Api/"]
+COPY ["TaskFlow.Application/TaskFlow.Application.csproj", "TaskFlow.Application/"]
+COPY ["TaskFlow.Domain/TaskFlow.Domain.csproj", "TaskFlow.Domain/"]
+COPY ["TaskFlow.Infrastructure/TaskFlow.Infrastructure.csproj", "TaskFlow.Infrastructure/"]
+COPY ["Directory.Build.props", "Directory.Packages.props", "global.json", "./"]
+RUN dotnet restore "TaskFlow.Api/TaskFlow.Api.csproj"
+
+# ---------- build & publish ----------
+FROM restore AS build
+COPY . .
+RUN dotnet publish "TaskFlow.Api/TaskFlow.Api.csproj" \
+    -c Release -o /app/publish --no-restore /p:UseAppHost=false
+
+# ---------- runtime: distroless, non-root ----------
+FROM mcr.microsoft.com/dotnet/aspnet:9.0-noble-chiseled AS final
+WORKDIR /app
+COPY --from=build /app/publish .
+
+USER $APP_UID
+EXPOSE 8080
+ENV ASPNETCORE_URLS=http://+:8080 \
+    DOTNET_RUNNING_IN_CONTAINER=true
+
+HEALTHCHECK --interval=30s --timeout=3s --start-period=20s --retries=3 \
+  CMD wget --quiet --tries=1 --spider http://localhost:8080/health/live || exit 1
+
+ENTRYPOINT ["dotnet", "TaskFlow.Api.dll"]
