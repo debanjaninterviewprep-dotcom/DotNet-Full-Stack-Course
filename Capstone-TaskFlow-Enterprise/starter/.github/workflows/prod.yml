@@ -1,0 +1,26 @@
+name: prod
+on:
+  push:
+    tags: ['v*.*.*']
+  workflow_dispatch:
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: prod
+  cancel-in-progress: false
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment: prod   # protected with required reviewers in repo settings
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.2.2
+      - uses: azure/login@a65d910e8af852a8061c627c456678983e180302 # v2.3.0
+        with:
+          client-id:       ${{ vars.AZURE_CLIENT_ID }}
+          tenant-id:       ${{ vars.AZURE_TENANT_ID }}
+          subscription-id: ${{ vars.AZURE_SUBSCRIPTION_ID }}
+      - uses: hashicorp/setup-terraform@b9cd54a3c349d3f38e8881555d616ced269862dd # v3.1.2
+      - run: terraform -chdir=infra/envs/prod init
+      - run: terraform -chdir=infra/envs/prod apply -auto-approve
+      - run: echo "TODO: build & push image with tag ${{ github.ref_name }}; deploy revision; run smoke; pin traffic 100%"
