@@ -1,0 +1,37 @@
+<policies>
+  <inbound>
+    <base />
+    <!-- Per-subscription rate limit: 30 calls/min -->
+    <rate-limit-by-key calls="30" renewal-period="60"
+                       counter-key="@(context.Subscription?.Id ?? "anon")" />
+    <!-- Per-subscription daily quota -->
+    <quota-by-key calls="1000" renewal-period="86400"
+                  counter-key="@(context.Subscription?.Id ?? "anon")" />
+  </inbound>
+  <backend>
+    <base />
+  </backend>
+  <outbound>
+    <base />
+  </outbound>
+  <on-error>
+    <base />
+    <choose>
+      <when condition="@(context.Response.StatusCode == 429)">
+        <return-response>
+          <set-status code="429" reason="Too Many Requests" />
+          <set-header name="Content-Type" exists-action="override">
+            <value>application/json</value>
+          </set-header>
+          <set-body>@{
+            return new JObject(
+              new JProperty("error", "rate_limit_exceeded"),
+              new JProperty("message", "Calm down. 30 req/min on the Free product."),
+              new JProperty("correlationId", context.RequestId)
+            ).ToString();
+          }</set-body>
+        </return-response>
+      </when>
+    </choose>
+  </on-error>
+</policies>

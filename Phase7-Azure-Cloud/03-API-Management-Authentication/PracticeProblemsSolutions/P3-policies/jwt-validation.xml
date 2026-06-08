@@ -1,0 +1,32 @@
+<policies>
+  <inbound>
+    <base />
+    <validate-jwt header-name="Authorization"
+                  failed-validation-httpcode="401"
+                  failed-validation-error-message="@{
+                      return $"Unauthorized. correlationId={context.RequestId}";
+                  }"
+                  require-expiration-time="true"
+                  require-signed-tokens="true"
+                  clock-skew="60">
+      <openid-config url="https://login.microsoftonline.com/{{tenantId}}/v2.0/.well-known/openid-configuration" />
+      <required-claims>
+        <claim name="aud" match="any">
+          <value>{{apiAudience}}</value>
+        </claim>
+        <claim name="scp" match="any" separator=" ">
+          <value>Tasks.Access</value>
+        </claim>
+      </required-claims>
+    </validate-jwt>
+  </inbound>
+  <backend>
+    <base />
+  </backend>
+  <outbound>
+    <base />
+  </outbound>
+  <on-error>
+    <base />
+  </on-error>
+</policies>

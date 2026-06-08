@@ -1,0 +1,20 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Principal": {
+        "Federated": "arn:aws:iam::<aws-account-id>:oidc-provider/login.microsoftonline.com/<tenant-id>/v2.0"
+      },
+      "Action": "sts:AssumeRoleWithWebIdentity",
+      "Condition": {
+        "StringEquals": {
+          "login.microsoftonline.com/<tenant-id>/v2.0:aud": "api://taskflow-aws-relay"
+        },
+        "StringLike": {
+          "login.microsoftonline.com/<tenant-id>/v2.0:sub": "<azure-mi-object-id>"
+        }
+      }
+    }
+  ]
+}
