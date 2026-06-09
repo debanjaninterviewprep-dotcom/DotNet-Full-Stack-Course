@@ -38,4 +38,4 @@ frontend/
 - Lazy-load every feature route; check bundle size after each.
 - Tailwind or Angular Material — pick in ADR, then be consistent.
 
-See [Phase 3](../../../Phase3-Angular/) for the techniques; see [Build Plan M2](../../02-Build-Plan.md#m2--frontend-skeleton) for the milestone.
+See [Phase 3](../../../03-Phase3-Angular/) for the techniques; see [Build Plan M2](../../02-Build-Plan.md#m2--frontend-skeleton) for the milestone.

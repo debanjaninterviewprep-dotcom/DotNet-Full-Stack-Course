@@ -33,7 +33,7 @@ services:
   api:
     build:
       context: ../../..
-      dockerfile: Phase6-Full-Stack-Integration/12-CICD-Docker-Deployment/PracticeProblemsSolutions/Dockerfile.api
+      dockerfile: 06-Phase6-Full-Stack-Integration/12-CICD-Docker-Deployment/PracticeProblemsSolutions/Dockerfile.api
     depends_on:
       sqlserver: { condition: service_healthy }
       redis:     { condition: service_healthy }
@@ -49,7 +49,7 @@ services:
   web:
     build:
       context: ../../../web
-      dockerfile: ../Phase6-Full-Stack-Integration/12-CICD-Docker-Deployment/PracticeProblemsSolutions/Dockerfile.web
+      dockerfile: ../06-Phase6-Full-Stack-Integration/12-CICD-Docker-Deployment/PracticeProblemsSolutions/Dockerfile.web
       args:
         VITE_API_BASE_URL: "http://localhost:8080/api/v1"
     ports: ["5173:8080"]

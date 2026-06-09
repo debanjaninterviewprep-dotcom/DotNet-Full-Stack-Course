@@ -7,7 +7,7 @@
 **Setup**
 
 ```powershell
-cd Phase6-Full-Stack-Integration\03-Backend-API-Foundation\PracticeProblemsSolutions
+cd 06-Phase6-Full-Stack-Integration\03-Backend-API-Foundation\PracticeProblemsSolutions
 dotnet run
 ```
 

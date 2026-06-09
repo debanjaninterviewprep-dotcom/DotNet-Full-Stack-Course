@@ -7,7 +7,7 @@
 **Setup:**
 
 ```powershell
-cd Phase6-Full-Stack-Integration\02-Database-Design-EF-Core-Migrations\PracticeProblemsSolutions
+cd 06-Phase6-Full-Stack-Integration\02-Database-Design-EF-Core-Migrations\PracticeProblemsSolutions
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer
 dotnet add package Microsoft.EntityFrameworkCore.Design
 dotnet run

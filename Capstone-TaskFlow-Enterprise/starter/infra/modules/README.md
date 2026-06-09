@@ -36,4 +36,4 @@ output "id" { value = azurerm_xxx.this.id }
 ## Naming
 `<kind>-<app>-<env>-<region>` e.g. `kv-taskflow-prod-neu`. Keep ≤ 24 chars where required.
 
-See [Phase 8](../../../Phase8-DevOps-CICD-IaC/) and [Phase 10](../../../Phase10-Advanced-Security-and-Governance/) for the techniques.
+See [Phase 8](../../../08-Phase8-DevOps-CICD-IaC/) and [Phase 10](../../../10-Phase10-Advanced-Security-and-Governance/) for the techniques.

@@ -25,4 +25,4 @@ backend/
 - Multi-tenancy enforced via EF query filters on every aggregate root.
 - Logging: `ILogger<T>` with structured properties; correlation ID via middleware.
 
-See [Phase 5](../../../Phase5-DotNet-Core/) for the techniques; see [Build Plan M1](../../02-Build-Plan.md#m1--backend-skeleton) for the milestone.
+See [Phase 5](../../../05-Phase5-DotNet-Core/) for the techniques; see [Build Plan M1](../../02-Build-Plan.md#m1--backend-skeleton) for the milestone.

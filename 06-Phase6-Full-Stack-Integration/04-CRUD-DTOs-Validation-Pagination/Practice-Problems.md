@@ -7,7 +7,7 @@
 **Setup**
 
 ```powershell
-cd Phase6-Full-Stack-Integration\04-CRUD-DTOs-Validation-Pagination\PracticeProblemsSolutions
+cd 06-Phase6-Full-Stack-Integration\04-CRUD-DTOs-Validation-Pagination\PracticeProblemsSolutions
 dotnet run
 ```
 

@@ -3,281 +3,281 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase1-CSharp-Fundamentals", "Phase1-CSharp-Fundamentals", "{25F3280E-910D-F704-54C7-86BFD508E0F9}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Phase1-CSharp-Fundamentals", "01-Phase1-CSharp-Fundamentals", "{25F3280E-910D-F704-54C7-86BFD508E0F9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Introduction-to-CSharp", "01-Introduction-to-CSharp", "{07BC7571-9421-C34D-6FF8-12CB17CE5B8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{E6B0EC61-7EF3-56C1-24E4-D196A76DD214}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\01-Introduction-to-CSharp\PracticeProblemsSolutions\PracticeProblems.csproj", "{22357DB2-11B0-3006-A2B4-389901B6FE09}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\01-Introduction-to-CSharp\PracticeProblemsSolutions\PracticeProblems.csproj", "{22357DB2-11B0-3006-A2B4-389901B6FE09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Variables-DataTypes-TypeConversion", "02-Variables-DataTypes-TypeConversion", "{6788EA54-BB8A-1009-E812-A42D59A63E25}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{98C9FBEF-2BD2-A9CC-AFE8-BF0F5CD043E1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\02-Variables-DataTypes-TypeConversion\PracticeProblemsSolutions\PracticeProblems.csproj", "{8AE9B059-293F-4F43-ACBE-C7E57E36D25E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\02-Variables-DataTypes-TypeConversion\PracticeProblemsSolutions\PracticeProblems.csproj", "{8AE9B059-293F-4F43-ACBE-C7E57E36D25E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Operators-and-Expressions", "03-Operators-and-Expressions", "{CB24D3C0-1104-7847-63D6-F6C290AD8333}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{6281A580-EF53-C3B9-F9AC-D504967E0A37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\03-Operators-and-Expressions\PracticeProblemsSolutions\PracticeProblems.csproj", "{95E13A0B-F7FA-496D-ACDE-7C155B867890}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\03-Operators-and-Expressions\PracticeProblemsSolutions\PracticeProblems.csproj", "{95E13A0B-F7FA-496D-ACDE-7C155B867890}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Control-Flow", "04-Control-Flow", "{346741E1-51DE-3B0A-2F2D-0AD80FAF9321}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{0CC90D5E-28EF-E825-5F36-EEE423197AEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\04-Control-Flow\PracticeProblemsSolutions\PracticeProblems.csproj", "{39B3F9ED-6A62-4A36-9528-76148E6D29E0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\04-Control-Flow\PracticeProblemsSolutions\PracticeProblems.csproj", "{39B3F9ED-6A62-4A36-9528-76148E6D29E0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Methods-and-Parameters", "05-Methods-and-Parameters", "{677C3504-9EEA-4DEB-B15F-40D0A1954DD8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{94D9A84A-C28C-5B1A-B676-7F37B0DCF7F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\05-Methods-and-Parameters\PracticeProblemsSolutions\PracticeProblems.csproj", "{FDF20773-EFAC-4D25-9F19-82EA5DE5CD1E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\05-Methods-and-Parameters\PracticeProblemsSolutions\PracticeProblems.csproj", "{FDF20773-EFAC-4D25-9F19-82EA5DE5CD1E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Arrays-and-Strings", "06-Arrays-and-Strings", "{6A37CD57-B368-221A-8104-8EAD4AA5729F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{78F3E443-BB69-AE69-86B8-E43E3945D3CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\06-Arrays-and-Strings\PracticeProblemsSolutions\PracticeProblems.csproj", "{313BC37D-B484-4CA5-B53A-51D257BE9914}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\06-Arrays-and-Strings\PracticeProblemsSolutions\PracticeProblems.csproj", "{313BC37D-B484-4CA5-B53A-51D257BE9914}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-OOP-Classes-and-Objects", "07-OOP-Classes-and-Objects", "{73E2989D-74FD-2D44-6A45-6E86AB153731}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{CB93B1C7-904D-B0C2-738E-79059FFC440B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\07-OOP-Classes-and-Objects\PracticeProblemsSolutions\PracticeProblems.csproj", "{BD581B4D-483C-49BA-AA45-8CECE4BAC88A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\07-OOP-Classes-and-Objects\PracticeProblemsSolutions\PracticeProblems.csproj", "{BD581B4D-483C-49BA-AA45-8CECE4BAC88A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-OOP-Inheritance-and-Polymorphism", "08-OOP-Inheritance-and-Polymorphism", "{19229ED9-AD83-1999-ED1D-67D376AF9D3A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{12614E98-05B4-1F57-93E2-A51BFD70D9B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\08-OOP-Inheritance-and-Polymorphism\PracticeProblemsSolutions\PracticeProblems.csproj", "{A1FF867D-592B-4B4F-8393-F25447954081}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\08-OOP-Inheritance-and-Polymorphism\PracticeProblemsSolutions\PracticeProblems.csproj", "{A1FF867D-592B-4B4F-8393-F25447954081}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-OOP-Abstraction-and-Interfaces", "09-OOP-Abstraction-and-Interfaces", "{B963BA19-DA17-56A8-D2BD-45F90DF5A8F7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{155DB8B1-AF6F-0A2D-82C1-DEDB7B8178D5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\09-OOP-Abstraction-and-Interfaces\PracticeProblemsSolutions\PracticeProblems.csproj", "{33C2BFF1-86D5-498B-98D6-ECDA20EF656A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\09-OOP-Abstraction-and-Interfaces\PracticeProblemsSolutions\PracticeProblems.csproj", "{33C2BFF1-86D5-498B-98D6-ECDA20EF656A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-OOP-Encapsulation-and-Access-Modifiers", "10-OOP-Encapsulation-and-Access-Modifiers", "{950A5942-39B2-4D3A-9321-09384EE64E5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{B8B21583-7793-1D79-0863-DF4C03EE4D09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\10-OOP-Encapsulation-and-Access-Modifiers\PracticeProblemsSolutions\PracticeProblems.csproj", "{7BFD1D68-2B6C-4550-9CD3-55A6FDD20ACB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\10-OOP-Encapsulation-and-Access-Modifiers\PracticeProblemsSolutions\PracticeProblems.csproj", "{7BFD1D68-2B6C-4550-9CD3-55A6FDD20ACB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Exception-Handling", "11-Exception-Handling", "{966D509A-B584-F099-F5FE-1C3F7FC95B73}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{10966BE6-FEB4-B76A-5F53-0E364082B8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\11-Exception-Handling\PracticeProblemsSolutions\PracticeProblems.csproj", "{F9E4AB20-01DC-4987-83F3-7A608B727D19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\11-Exception-Handling\PracticeProblemsSolutions\PracticeProblems.csproj", "{F9E4AB20-01DC-4987-83F3-7A608B727D19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "12-Collections", "12-Collections", "{D36EC7D4-E1D3-97F1-5D07-BA9382D90197}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{9702DA13-5355-1EB1-8B4D-8CB713DB9E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\12-Collections\PracticeProblemsSolutions\PracticeProblems.csproj", "{CF07BFFB-621E-4849-8F27-358F45FD3E2B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\12-Collections\PracticeProblemsSolutions\PracticeProblems.csproj", "{CF07BFFB-621E-4849-8F27-358F45FD3E2B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "13-LINQ", "13-LINQ", "{A2995A31-11C9-825C-4168-F2D147599FC9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{10DCCB9E-ECB4-4E95-93DA-D8CD789465AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\13-LINQ\PracticeProblemsSolutions\PracticeProblems.csproj", "{6CC1C645-AACE-4C89-BD21-BA8F9E0A462F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\13-LINQ\PracticeProblemsSolutions\PracticeProblems.csproj", "{6CC1C645-AACE-4C89-BD21-BA8F9E0A462F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "14-Delegates-Events-Lambdas", "14-Delegates-Events-Lambdas", "{E8F49F68-D8C7-6987-79B1-4A9677ECDC0A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{CDE7392D-9E5D-B1A2-5B3F-826810EABD0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\14-Delegates-Events-Lambdas\PracticeProblemsSolutions\PracticeProblems.csproj", "{8BBBB558-36AE-4347-8B7F-CE2F88FAB738}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\14-Delegates-Events-Lambdas\PracticeProblemsSolutions\PracticeProblems.csproj", "{8BBBB558-36AE-4347-8B7F-CE2F88FAB738}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15-Async-Await", "15-Async-Await", "{9E276E35-6E0E-1799-640F-7AF7FEF84A8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{3AD5320C-097A-C7D0-6C27-DC945175F918}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\15-Async-Await\PracticeProblemsSolutions\PracticeProblems.csproj", "{3C2951C1-6E80-4052-8C46-71F4EAF384A5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\15-Async-Await\PracticeProblemsSolutions\PracticeProblems.csproj", "{3C2951C1-6E80-4052-8C46-71F4EAF384A5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "16-File-IO-Serialization", "16-File-IO-Serialization", "{968A22F2-5562-D1DD-74EB-4C76FE8A3F36}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{B65AD2F7-3C37-50ED-5ABF-0D90BE55CFC3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\16-File-IO-Serialization\PracticeProblemsSolutions\PracticeProblems.csproj", "{993B7A49-BD84-4251-8608-F381AB3F7AD6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\16-File-IO-Serialization\PracticeProblemsSolutions\PracticeProblems.csproj", "{993B7A49-BD84-4251-8608-F381AB3F7AD6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "17-Generics", "17-Generics", "{E5C7B184-82FF-A85C-9A18-D08D52B0BAE8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{8F382848-802D-C60D-96B7-4F94FCA39192}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\17-Generics\PracticeProblemsSolutions\PracticeProblems.csproj", "{A42F5F34-B20B-4AE1-BEEB-FBD8588E12ED}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\17-Generics\PracticeProblemsSolutions\PracticeProblems.csproj", "{A42F5F34-B20B-4AE1-BEEB-FBD8588E12ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "18-Phase1-Revision-Test", "18-Phase1-Revision-Test", "{B9A24A08-5EAA-9FB8-18E3-08CCC2F49A65}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{238122F0-E86B-4DD6-C476-E227744720C0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase1-CSharp-Fundamentals\18-Phase1-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{BD62AB0B-2D4B-42DC-B1AB-2FEB7EC76FEE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "01-Phase1-CSharp-Fundamentals\18-Phase1-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{BD62AB0B-2D4B-42DC-B1AB-2FEB7EC76FEE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase2-DSA", "Phase2-DSA", "{B3FC65F0-8F45-3D4B-5DC5-8466BE6C31E2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Phase2-DSA", "02-Phase2-DSA", "{B3FC65F0-8F45-3D4B-5DC5-8466BE6C31E2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-Big-O-Notation", "01-Big-O-Notation", "{5176D4EA-5144-C742-68B6-CAF356EB682A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{F68E4BDB-593B-ECD2-C381-ACDF41FFB92C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\01-Big-O-Notation\PracticeProblemsSolutions\PracticeProblems.csproj", "{F991DAF8-8A85-4504-8541-C8A685A80FE2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\01-Big-O-Notation\PracticeProblemsSolutions\PracticeProblems.csproj", "{F991DAF8-8A85-4504-8541-C8A685A80FE2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Arrays-and-Strings", "02-Arrays-and-Strings", "{52844317-FA17-27A7-C8AA-B2AE4C06ABF3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{40BFAFDB-E250-39A4-4311-6E3F66A702AA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\02-Arrays-and-Strings\PracticeProblemsSolutions\PracticeProblems.csproj", "{F18730D4-7929-46CC-A9B8-30B9E4809A81}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\02-Arrays-and-Strings\PracticeProblemsSolutions\PracticeProblems.csproj", "{F18730D4-7929-46CC-A9B8-30B9E4809A81}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Linked-Lists", "03-Linked-Lists", "{26D3865F-2654-7CF0-7B7C-66E9F5F2116A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{9897CD75-8608-D07B-509F-0E6AA46EA5D0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\03-Linked-Lists\PracticeProblemsSolutions\PracticeProblems.csproj", "{2C3BA4A7-CCDF-4135-9B18-29C4C5CBF16F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\03-Linked-Lists\PracticeProblemsSolutions\PracticeProblems.csproj", "{2C3BA4A7-CCDF-4135-9B18-29C4C5CBF16F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Stacks-and-Queues", "04-Stacks-and-Queues", "{029D9AC3-0B10-A895-29AE-C6C04ADCAC72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{13F4F8B6-90FD-4DB0-29CD-6E22F99BDE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\04-Stacks-and-Queues\PracticeProblemsSolutions\PracticeProblems.csproj", "{AE509B42-89A0-4EF6-B8DF-126D3CC6FE35}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\04-Stacks-and-Queues\PracticeProblemsSolutions\PracticeProblems.csproj", "{AE509B42-89A0-4EF6-B8DF-126D3CC6FE35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Hash-Tables-and-Hashing", "05-Hash-Tables-and-Hashing", "{C12DE962-78C8-3642-AAFD-8600B87A69D1}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{A864D11F-3FCD-58E0-DF55-C2467BFCD513}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\05-Hash-Tables-and-Hashing\PracticeProblemsSolutions\PracticeProblems.csproj", "{EADE1BDA-2681-4AA5-8E73-B3F773156DD8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\05-Hash-Tables-and-Hashing\PracticeProblemsSolutions\PracticeProblems.csproj", "{EADE1BDA-2681-4AA5-8E73-B3F773156DD8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Trees-and-BST", "06-Trees-and-BST", "{71DAA320-17DC-9D41-E828-543E2AFBF37E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{8D9F8960-A9FD-9510-E945-E332F9066895}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\06-Trees-and-BST\PracticeProblemsSolutions\PracticeProblems.csproj", "{279D3A07-9E94-45F6-9F7F-DDAFEF40CD5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\06-Trees-and-BST\PracticeProblemsSolutions\PracticeProblems.csproj", "{279D3A07-9E94-45F6-9F7F-DDAFEF40CD5F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Graphs-BFS-DFS", "07-Graphs-BFS-DFS", "{4B62D298-858E-5EC1-A793-CF182DAE4039}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{40BF483F-B858-0C14-0499-6E228332FE5E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\07-Graphs-BFS-DFS\PracticeProblemsSolutions\PracticeProblems.csproj", "{45996B06-0377-400C-9ED7-8F16D628287F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\07-Graphs-BFS-DFS\PracticeProblemsSolutions\PracticeProblems.csproj", "{45996B06-0377-400C-9ED7-8F16D628287F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Sorting-Algorithms", "08-Sorting-Algorithms", "{84DB2E25-D740-5EA2-B675-DC12C02BCF18}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{56BC6F44-A5E4-D7EA-4168-7177D1F59076}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\08-Sorting-Algorithms\PracticeProblemsSolutions\PracticeProblems.csproj", "{DDA663C0-6236-40D8-8DA7-E1D825720D4E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\08-Sorting-Algorithms\PracticeProblemsSolutions\PracticeProblems.csproj", "{DDA663C0-6236-40D8-8DA7-E1D825720D4E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-Searching-Algorithms", "09-Searching-Algorithms", "{71826C3F-2A85-3592-2ACB-46B5641CDE8C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{A2A80767-8864-E2F9-BA27-51FD3F6CA4B9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\09-Searching-Algorithms\PracticeProblemsSolutions\PracticeProblems.csproj", "{70491A6C-4B9A-4E6D-A40D-DF23DACFDD50}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\09-Searching-Algorithms\PracticeProblemsSolutions\PracticeProblems.csproj", "{70491A6C-4B9A-4E6D-A40D-DF23DACFDD50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-Recursion-and-DP", "10-Recursion-and-DP", "{2F1AA763-E68D-F204-9ADF-05AE5A2D4544}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{FC6184DC-87BC-7653-17C6-30E84BCCA632}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\10-Recursion-and-DP\PracticeProblemsSolutions\PracticeProblems.csproj", "{A995AFA6-DE12-4A9E-B7D0-F45D5D2E5535}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\10-Recursion-and-DP\PracticeProblemsSolutions\PracticeProblems.csproj", "{A995AFA6-DE12-4A9E-B7D0-F45D5D2E5535}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-Phase2-Revision-Test", "11-Phase2-Revision-Test", "{3D64CBDF-F16C-3A3B-6BBD-60336D2C024D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{CD8C051D-3A92-3731-A70E-18E6EFD2607A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase2-DSA\11-Phase2-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{4CBAE5AF-47A3-431C-8E56-E50F60D0A2CE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "02-Phase2-DSA\11-Phase2-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{4CBAE5AF-47A3-431C-8E56-E50F60D0A2CE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase5-DotNet-Core", "Phase5-DotNet-Core", "{44C8E1DF-DD91-4207-9E2B-9C669D1636BD}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Phase5-DotNet-Core", "05-Phase5-DotNet-Core", "{44C8E1DF-DD91-4207-9E2B-9C669D1636BD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01-ASP-NET-Core-Fundamentals", "01-ASP-NET-Core-Fundamentals", "{704C2430-2424-4642-B698-0A99426720A7}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{C255D23C-DD3F-40EC-92A9-87B30AC863EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\01-ASP-NET-Core-Fundamentals\PracticeProblemsSolutions\PracticeProblems.csproj", "{4A1170A5-6910-4D02-9612-96CB6223633C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\01-ASP-NET-Core-Fundamentals\PracticeProblemsSolutions\PracticeProblems.csproj", "{4A1170A5-6910-4D02-9612-96CB6223633C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Controllers-and-Routing", "02-Controllers-and-Routing", "{A9AA286C-8E09-44E4-A163-0C6ABA4192E6}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{7BC90EFA-FDDF-429B-A16B-C272D6EF6B5D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\02-Controllers-and-Routing\PracticeProblemsSolutions\PracticeProblems.csproj", "{A672A2C1-D179-4D0C-90AD-904AD2DA040A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\02-Controllers-and-Routing\PracticeProblemsSolutions\PracticeProblems.csproj", "{A672A2C1-D179-4D0C-90AD-904AD2DA040A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-Models-DTOs-AutoMapper", "03-Models-DTOs-AutoMapper", "{D11BB50A-5AD3-4F8A-B664-2F89C5F517ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{4AE05526-416D-48AF-937A-7640B13EF47C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\03-Models-DTOs-AutoMapper\PracticeProblemsSolutions\PracticeProblems.csproj", "{3A659968-37C8-4C2D-B386-AE0F9E7DEF0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\03-Models-DTOs-AutoMapper\PracticeProblemsSolutions\PracticeProblems.csproj", "{3A659968-37C8-4C2D-B386-AE0F9E7DEF0B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Entity-Framework-Core-SQL-Server", "04-Entity-Framework-Core-SQL-Server", "{81FB618C-E770-4D27-B0C2-B98D0C7456CB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{5E88AF0D-B44A-48C2-ABC3-14B3AD7DB71C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\04-Entity-Framework-Core-SQL-Server\PracticeProblemsSolutions\PracticeProblems.csproj", "{D33194AE-EEA8-41D4-AF6D-E7557C17018C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\04-Entity-Framework-Core-SQL-Server\PracticeProblemsSolutions\PracticeProblems.csproj", "{D33194AE-EEA8-41D4-AF6D-E7557C17018C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Repository-Pattern-Unit-of-Work", "05-Repository-Pattern-Unit-of-Work", "{3E38C052-E5DA-4C97-964C-8B7D73232E50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{869069F9-831A-48E4-AF89-6DF76DBCAC8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\05-Repository-Pattern-Unit-of-Work\PracticeProblemsSolutions\PracticeProblems.csproj", "{49AEA579-7FEE-4D8E-AAA2-00BFF602A22C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\05-Repository-Pattern-Unit-of-Work\PracticeProblemsSolutions\PracticeProblems.csproj", "{49AEA579-7FEE-4D8E-AAA2-00BFF602A22C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Services-Layer-Business-Logic", "06-Services-Layer-Business-Logic", "{4E487133-A236-4A4F-8A6D-CD5C31E44C40}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{49E704E8-4C3F-4CF7-8B15-F1CB5CA003DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\06-Services-Layer-Business-Logic\PracticeProblemsSolutions\PracticeProblems.csproj", "{45FEEE95-4C83-4810-A841-AC60E61A0A66}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\06-Services-Layer-Business-Logic\PracticeProblemsSolutions\PracticeProblems.csproj", "{45FEEE95-4C83-4810-A841-AC60E61A0A66}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Authentication-Authorization-JWT", "07-Authentication-Authorization-JWT", "{ABAD272D-C0DA-4BC7-93D7-5370253CEA01}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{ED00DA1D-A19F-4F65-8BDB-900A45073837}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\07-Authentication-Authorization-JWT\PracticeProblemsSolutions\PracticeProblems.csproj", "{C98B45F5-7D1E-4E13-9F0A-BDBA5087AC87}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\07-Authentication-Authorization-JWT\PracticeProblemsSolutions\PracticeProblems.csproj", "{C98B45F5-7D1E-4E13-9F0A-BDBA5087AC87}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08-Middleware-Filters-Error-Handling", "08-Middleware-Filters-Error-Handling", "{CA55F440-EADB-4142-942E-D7CAEF3EF3D5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{EBBF8593-7035-4387-AA30-47E8FE3FBE59}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\08-Middleware-Filters-Error-Handling\PracticeProblemsSolutions\PracticeProblems.csproj", "{31912AC7-2614-4706-A7DF-B16D2D700FB5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\08-Middleware-Filters-Error-Handling\PracticeProblemsSolutions\PracticeProblems.csproj", "{31912AC7-2614-4706-A7DF-B16D2D700FB5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09-Clean-Architecture", "09-Clean-Architecture", "{6BF1AB07-DD9A-4956-AE12-D9A1908118FA}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{32CE63F3-775D-4F7C-876F-368AE5A53B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\09-Clean-Architecture\PracticeProblemsSolutions\PracticeProblems.csproj", "{053665EE-8655-4CD6-B9B8-A31AB901B818}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\09-Clean-Architecture\PracticeProblemsSolutions\PracticeProblems.csproj", "{053665EE-8655-4CD6-B9B8-A31AB901B818}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-Phase5-Revision-Test", "10-Phase5-Revision-Test", "{62C91068-BA8D-459D-8AFE-9F7D0EC5C8ED}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{C5E87619-7BAA-44AC-A72D-52649462C2C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase5-DotNet-Core\10-Phase5-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{B7D9F8E4-170A-4287-B568-0F068EAA9171}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "05-Phase5-DotNet-Core\10-Phase5-Revision-Test\PracticeProblemsSolutions\PracticeProblems.csproj", "{B7D9F8E4-170A-4287-B568-0F068EAA9171}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase6-Full-Stack-Integration", "Phase6-Full-Stack-Integration", "{8D17A046-B3A2-7408-1FA0-F9EC801A5441}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Phase6-Full-Stack-Integration", "06-Phase6-Full-Stack-Integration", "{8D17A046-B3A2-7408-1FA0-F9EC801A5441}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "Phase6-Full-Stack-Integration\02-Database-Design-EF-Core-Migrations\PracticeProblemsSolutions\PracticeProblems.csproj", "{AB753FD1-41B5-4A87-89AD-DC4A170D3638}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PracticeProblems", "06-Phase6-Full-Stack-Integration\02-Database-Design-EF-Core-Migrations\PracticeProblemsSolutions\PracticeProblems.csproj", "{AB753FD1-41B5-4A87-89AD-DC4A170D3638}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.IntegrationTests", "Phase6-Full-Stack-Integration\10-Testing-Full-Stack\PracticeProblemsSolutions\TaskFlow.IntegrationTests\TaskFlow.IntegrationTests.csproj", "{5AD90FA9-6A53-4ECF-A0CB-221971E8455D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.IntegrationTests", "06-Phase6-Full-Stack-Integration\10-Testing-Full-Stack\PracticeProblemsSolutions\TaskFlow.IntegrationTests\TaskFlow.IntegrationTests.csproj", "{5AD90FA9-6A53-4ECF-A0CB-221971E8455D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.UnitTests", "Phase6-Full-Stack-Integration\10-Testing-Full-Stack\PracticeProblemsSolutions\TaskFlow.UnitTests\TaskFlow.UnitTests.csproj", "{0805DD3C-2AC9-406F-B333-9C1965A45B65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.UnitTests", "06-Phase6-Full-Stack-Integration\10-Testing-Full-Stack\PracticeProblemsSolutions\TaskFlow.UnitTests\TaskFlow.UnitTests.csproj", "{0805DD3C-2AC9-406F-B333-9C1965A45B65}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Phase7-Azure-Cloud", "Phase7-Azure-Cloud", "{35E2C1B4-F53C-0D6A-D06C-0138B3526E72}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Phase7-Azure-Cloud", "07-Phase7-Azure-Cloud", "{35E2C1B4-F53C-0D6A-D06C-0138B3526E72}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Function-Apps-and-App-Service", "02-Function-Apps-and-App-Service", "{C2D4E256-2CA1-3F65-A839-B4BECC8BDBA4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{408A5F48-C045-32E9-9054-358E0CD42180}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Functions", "Phase7-Azure-Cloud\02-Function-Apps-and-App-Service\PracticeProblemsSolutions\TaskFlow.Functions\TaskFlow.Functions.csproj", "{A5001491-C8F7-4135-9ECE-B548DFF4D901}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Functions", "07-Phase7-Azure-Cloud\02-Function-Apps-and-App-Service\PracticeProblemsSolutions\TaskFlow.Functions\TaskFlow.Functions.csproj", "{A5001491-C8F7-4135-9ECE-B548DFF4D901}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Api.Stub", "Phase7-Azure-Cloud\02-Function-Apps-and-App-Service\PracticeProblemsSolutions\TaskFlow.Api.Stub\TaskFlow.Api.Stub.csproj", "{98F37B95-723A-4B4C-B947-A8DA840EE002}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Api.Stub", "07-Phase7-Azure-Cloud\02-Function-Apps-and-App-Service\PracticeProblemsSolutions\TaskFlow.Api.Stub\TaskFlow.Api.Stub.csproj", "{98F37B95-723A-4B4C-B947-A8DA840EE002}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "04-Storage-Blob-Table-Queue", "04-Storage-Blob-Table-Queue", "{3E088769-5E6C-BA79-43A6-5492FB7EBB82}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{40603483-E057-5CCB-E2B0-49E829C969C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Storage.Console", "Phase7-Azure-Cloud\04-Storage-Blob-Table-Queue\PracticeProblemsSolutions\TaskFlow.Storage.Console\TaskFlow.Storage.Console.csproj", "{B8535D7A-B50B-4B5B-A269-5F7C935522BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.Storage.Console", "07-Phase7-Azure-Cloud\04-Storage-Blob-Table-Queue\PracticeProblemsSolutions\TaskFlow.Storage.Console\TaskFlow.Storage.Console.csproj", "{B8535D7A-B50B-4B5B-A269-5F7C935522BB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05-Logic-Apps-and-Service-Bus", "05-Logic-Apps-and-Service-Bus", "{2AED6864-68FE-63A2-22AC-63BD57607CE5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{BB437C66-CBCD-2B2D-DD71-9237903C79A7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.ServiceBus.Console", "Phase7-Azure-Cloud\05-Logic-Apps-and-Service-Bus\PracticeProblemsSolutions\TaskFlow.ServiceBus.Console\TaskFlow.ServiceBus.Console.csproj", "{6C6EA75C-546B-48E9-811A-1C403A33BF97}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.ServiceBus.Console", "07-Phase7-Azure-Cloud\05-Logic-Apps-and-Service-Bus\PracticeProblemsSolutions\TaskFlow.ServiceBus.Console\TaskFlow.ServiceBus.Console.csproj", "{6C6EA75C-546B-48E9-811A-1C403A33BF97}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06-Redis-Cache-Integration", "06-Redis-Cache-Integration", "{A6017B67-0A8A-7C20-4EE0-CDDFD1573F59}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions", "PracticeProblemsSolutions", "{4AC1D7F5-41A4-4FAD-B659-192FE49000F1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.RedisApi", "Phase7-Azure-Cloud\06-Redis-Cache-Integration\PracticeProblemsSolutions\TaskFlow.RedisApi\TaskFlow.RedisApi.csproj", "{B163BF4C-5D50-4358-BE9A-26B0D943D45B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskFlow.RedisApi", "07-Phase7-Azure-Cloud\06-Redis-Cache-Integration\PracticeProblemsSolutions\TaskFlow.RedisApi\TaskFlow.RedisApi.csproj", "{B163BF4C-5D50-4358-BE9A-26B0D943D45B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07-Multi-Cloud-Integration", "07-Multi-Cloud-Integration", "{C53D017D-1A26-8AD2-3BCE-8AFEFE54362D}"
 EndProject
@@ -285,7 +285,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PracticeProblemsSolutions",
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "P3-oidc", "P3-oidc", "{8D0F986D-3070-BA7D-C311-59F36634BF82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcFederation.Sample", "Phase7-Azure-Cloud\07-Multi-Cloud-Integration\PracticeProblemsSolutions\P3-oidc\OidcFederation.Sample\OidcFederation.Sample.csproj", "{69193CF4-900A-4DBA-8C25-32508185D7BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OidcFederation.Sample", "07-Phase7-Azure-Cloud\07-Multi-Cloud-Integration\PracticeProblemsSolutions\P3-oidc\OidcFederation.Sample\OidcFederation.Sample.csproj", "{69193CF4-900A-4DBA-8C25-32508185D7BB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -7,7 +7,7 @@
 **Setup**
 
 ```powershell
-cd Phase6-Full-Stack-Integration\05-Authentication-Authorization-End-to-End\PracticeProblemsSolutions
+cd 06-Phase6-Full-Stack-Integration\05-Authentication-Authorization-End-to-End\PracticeProblemsSolutions
 dotnet user-secrets set "Jwt:SigningKey" "<base64-of-32-random-bytes>"
 dotnet run
 ```
