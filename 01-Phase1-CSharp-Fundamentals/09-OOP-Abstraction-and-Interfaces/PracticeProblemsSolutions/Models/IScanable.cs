@@ -1,0 +1,4 @@
+interface IScanable
+{
+    void Scan();
+}
