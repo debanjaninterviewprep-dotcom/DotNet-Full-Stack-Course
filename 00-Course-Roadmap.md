@@ -18,9 +18,9 @@
 | 5 | Methods & Parameters | ✅ Completed |
 | 6 | Arrays & Strings | ✅ Completed |
 | 7 | Object-Oriented Programming - Classes & Objects | ✅ Completed |
-| 8 | OOP - Inheritance & Polymorphism | ⬜ Not Started |
-| 9 | OOP - Abstraction & Interfaces | ⬜ Not Started |
-| 10 | OOP - Encapsulation & Access Modifiers | ⬜ Not Started |
+| 8 | OOP - Inheritance & Polymorphism | ✅ Completed |
+| 9 | OOP - Abstraction & Interfaces | ✅ Completed |
+| 10 | OOP - Encapsulation & Access Modifiers | 🟢 In Progress |
 | 11 | Exception Handling | ⬜ Not Started |
 | 12 | Collections (List, Dictionary, HashSet, etc.) | ⬜ Not Started |
 | 13 | LINQ (Language Integrated Query) | ⬜ Not Started |
@@ -201,3 +201,8 @@
 | May 25, 2026 | Phase 1, Topic 6: Arrays & Strings | ✅ Completed |
 | May 26, 2026 | Phase 1, Topic 7: OOP - Classes & Objects | 🟢 In Progress |
 | June 02, 2026 | Phase 1, Topic 7: OOP - Classes & Objects | ✅ Completed |
+| June 03, 2026 | Phase 1, Topic 8: OOP - Inheritance & Polymorphism | 🟢 In Progress |
+| June 04, 2026 | Phase 1, Topic 8: OOP - Inheritance & Polymorphism | ✅ Completed |
+| June 06, 2026 | Phase 1, Topic 9: OOP - Abstraction & Interfaces | 🟢 In Progress |
+| June 10, 2026 | Phase 1, Topic 9: OOP - Abstraction & Interfaces | ✅ Completed |
+| June 11, 2026 | Phase 1, Topic 10: OOP - Encapsulation & Access Modifiers | 🟢 In Progress |
