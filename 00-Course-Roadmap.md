@@ -20,8 +20,8 @@
 | 7 | Object-Oriented Programming - Classes & Objects | ✅ Completed |
 | 8 | OOP - Inheritance & Polymorphism | ✅ Completed |
 | 9 | OOP - Abstraction & Interfaces | ✅ Completed |
-| 10 | OOP - Encapsulation & Access Modifiers | 🟢 In Progress |
-| 11 | Exception Handling | ⬜ Not Started |
+| 10 | OOP - Encapsulation & Access Modifiers | ✅ Completed |
+| 11 | Exception Handling | 🟢 In Progress |
 | 12 | Collections (List, Dictionary, HashSet, etc.) | ⬜ Not Started |
 | 13 | LINQ (Language Integrated Query) | ⬜ Not Started |
 | 14 | Delegates, Events & Lambda Expressions | ⬜ Not Started |
@@ -206,3 +206,5 @@
 | June 06, 2026 | Phase 1, Topic 9: OOP - Abstraction & Interfaces | 🟢 In Progress |
 | June 10, 2026 | Phase 1, Topic 9: OOP - Abstraction & Interfaces | ✅ Completed |
 | June 11, 2026 | Phase 1, Topic 10: OOP - Encapsulation & Access Modifiers | 🟢 In Progress |
+| July 01, 2026 | Phase 1, Topic 10: OOP - Encapsulation & Access Modifiers | ✅ Completed |
+| July 01, 2026 | Phase 1, Topic 11: Exception Handling | 🟢 In Progress |
