@@ -174,6 +174,34 @@
 
 ---
 
+### Phase 11: SQL & Database Development
+| # | Topic | Status |
+|---|-------|--------|
+| 1 | Relational Databases & SQL Fundamentals | ⬜ Not Started |
+| 2 | Data Types & DDL | ⬜ Not Started |
+| 3 | SELECT, Filtering & Sorting | ⬜ Not Started |
+| 4 | Built-in Functions & Expressions | ⬜ Not Started |
+| 5 | Aggregations & Grouping | ⬜ Not Started |
+| 6 | Joins & APPLY | ⬜ Not Started |
+| 7 | Subqueries & CTEs | ⬜ Not Started |
+| 8 | Set Operators (UNION, INTERSECT, EXCEPT) | ⬜ Not Started |
+| 9 | Window Functions | ⬜ Not Started |
+| 10 | DML: INSERT, UPDATE, DELETE & MERGE | ⬜ Not Started |
+| 11 | Constraints & Data Integrity | ⬜ Not Started |
+| 12 | Normalization & Database Design | ⬜ Not Started |
+| 13 | Indexes & Execution Plans | ⬜ Not Started |
+| 14 | Views & Synonyms | ⬜ Not Started |
+| 15 | Stored Procedures & Functions | ⬜ Not Started |
+| 16 | Triggers | ⬜ Not Started |
+| 17 | Transactions, Concurrency & Locking | ⬜ Not Started |
+| 18 | Advanced T-SQL: JSON, XML & Temporal Tables | ⬜ Not Started |
+| 19 | SQL Security & Injection Prevention | ⬜ Not Started |
+| 20 | Performance Tuning & Troubleshooting | ⬜ Not Started |
+| 21 | SQL with .NET (ADO.NET, Dapper, EF Core) | ⬜ Not Started |
+| 22 | Phase 11 Revision Test | ⬜ Not Started |
+
+---
+
 ## Final Capstone Project: TaskFlow Enterprise Edition
 > Extend the original TaskFlow app into a **cloud-native, enterprise-ready solution**:
 - Backend in .NET Core with CI/CD pipelines  
